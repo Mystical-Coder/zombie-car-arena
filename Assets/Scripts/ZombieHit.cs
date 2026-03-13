@@ -25,6 +25,8 @@ public class ZombieHit : MonoBehaviour
             hitForce.y = Mathf.Abs(hitForce.y) + 2f;
             hitForce *= 2f;
 
+            ZombieRagdollController ragdoll = GetComponentInParent<ZombieRagdollController>();
+
             if(ragdoll != null)
                 ragdoll.EnableRagdoll(hitForce);
 
@@ -34,7 +36,7 @@ public class ZombieHit : MonoBehaviour
             if(spawner != null)
                 spawner.ZombieDied();
 
-            Destroy(gameObject,1.5f);
+            Destroy(transform.root.gameObject, 1.5f);
         }
     }
 }
