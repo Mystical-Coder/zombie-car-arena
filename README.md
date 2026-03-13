@@ -3,6 +3,11 @@
 A simple arcade style Unity game where the player drives a car around an arena and tries to hit as many zombies as possible before the timer runs out. The game demonstrates swipe based car control, ragdoll physics, and basic game mechanics such as scoring and spawning.
 
 ---
+## APK Download
+
+You can download and install the Android version of the game here:
+
+[Download APK](https://github.com/Mystical-Coder/zombie-car-arena/releases/tag/v1.0)
 
 # Gameplay
 
